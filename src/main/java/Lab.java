@@ -20,7 +20,8 @@ public class Lab {
      *
      * Check out this guide on throwing exceptions: https://rollbar.com/guides/java/how-to-throw-exceptions-in-java/#
      */
-    public void mustThrow() {
-
+    public void mustThrow () throws Exception{ //declaring that the method has the capability to throw an exception
+        String test = null; // creating a string variable that holds null value
+        test.toString(); //toSTring returns a nullPointerException becasue the test variable value is null
     }
 }
